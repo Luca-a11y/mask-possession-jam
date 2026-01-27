@@ -18,6 +18,8 @@
 	[] slow down component
 	[] clone componen
 	[] scale compoennt
+	[] mask class
+	[] interactable object
 	[] mask throw logic
 	[] platforms
 	[] pressure plates
@@ -26,7 +28,7 @@
 
 ## SOUND
 	[] object interaction sound
-	[] mask thow
+	[] mask throw
 	[] mask exit
 	[] steps
 	[] music (one layer for each used mask should bee awsome)

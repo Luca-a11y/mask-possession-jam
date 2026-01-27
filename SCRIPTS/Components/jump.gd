@@ -1,7 +1,8 @@
 extends Node
 
-const JUMP_SPEED : float = 7.0
+const JUMP_SPEED : float = 12.0
 const JUMP_ACC : float = 1.0
+const max_jump_time : float = 0.2
 
 var pawn : CharacterBody3D
 var floor_cast : RayCast3D
@@ -10,7 +11,6 @@ var target_velocity : Vector3
 var direction : Vector3
 var is_jumping : bool = false
 var curr_jump_time : float = 0.0
-var max_jump_time : float = 0.2
 
 func _ready() -> void:
 	pawn = get_parent()
