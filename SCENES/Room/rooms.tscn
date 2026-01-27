@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://coslpuduccfgs"]
+
+[node name="Node3D" type="Node3D" unique_id=1746160940]
+
+[node name="FloorFirstRoom" type="CSGBox3D" parent="." unique_id=1527745023]
+transform = Transform3D(1, 0, 0, 0, 0.09903467, 0, 0, 0, 1, 0, 0.1, 0)
+size = Vector3(5, 0.2, 5)
+
+[node name="WallFirstRoom 1" type="CSGBox3D" parent="." unique_id=293321088]
+transform = Transform3D(5.073987, 0, 0, 0, 1, 0, 0, 0, 0.07774007, 0, 1.4, -2.5)
+size = Vector3(1, 2.6, 1)
+
+[node name="WallFirstRoom 2" type="CSGBox3D" parent="." unique_id=1785341939]
+transform = Transform3D(-2.2179101e-07, 0, -0.07774007, 0, 1, 0, 5.073987, 0, -3.3981264e-09, 2.4870794, 1.4, 0.031645536)
+size = Vector3(1, 2.6, 1)
+
+[node name="WallFirstRoom 3" type="CSGBox3D" parent="." unique_id=437842373]
+transform = Transform3D(-5.073987, 0, 6.7962533e-09, 0, 1, 0, -4.4358202e-07, 0, -0.07774007, -0.021855593, 1.4, 2.4873245)
+size = Vector3(1, 2.6, 1)
+
+[node name="WallFirstRoom 4" type="CSGBox3D" parent="." unique_id=2090060867]
+transform = Transform3D(6.65373e-07, 0, 0.07774007, 0, 1, 0, -5.073987, 0, 1.01943805e-08, -2.5178642, 1.4, -0.010033429)
+size = Vector3(1, 2.6, 1)
+
+[node name="REFERENCE" type="CSGCylinder3D" parent="." unique_id=28298948]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9073436, 0)
+height = 1.6
