@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://hx8bj63m802y"]
+
+[ext_resource type="Texture2D" uid="uid://jq6l0p2wca3y" path="res://CHARACTERS/PLAYER/assets/png-clipart-coraline-jones-wybie-lovat-youtube-other-mother-youtube-child-toddler-thumbnail-2100766459.png" id="1_kr4dc"]
+[ext_resource type="Script" uid="uid://bn7vjlg0mwafx" path="res://SCRIPTS/Components/move.gd" id="2_odaji"]
+[ext_resource type="Script" uid="uid://bh1oijl2rsf4i" path="res://SCRIPTS/Components/jump.gd" id="3_odaji"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_muhm3"]
+radius = 0.27392578
+height = 1.6
+
+[node name="Player" type="CharacterBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
+shape = SubResource("CapsuleShape3D_muhm3")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(0.23, 0, 0, 0, 0.23, 0, 0, 0, 0.23, 0, 0.8, 0)
+visible = false
+texture = ExtResource("1_kr4dc")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.92426646, 0.38174802, 0, -0.38174802, 0.92426646, 0, 2.001077, 2.5401766)
+
+[node name="Move" type="Node" parent="."]
+script = ExtResource("2_odaji")
+
+[node name="Jump" type="Node" parent="."]
+script = ExtResource("3_odaji")

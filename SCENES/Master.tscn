@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bp88rakfimv30"]
+
+[ext_resource type="PackedScene" uid="uid://hx8bj63m802y" path="res://CHARACTERS/PLAYER/player.tscn" id="1_wvv6l"]
+
+[node name="Game" type="Node3D"]
+
+[node name="Player" parent="." instance=ExtResource("1_wvv6l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8099415, 0)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(0.99818426, 0, 0, 0, 0.99818426, 0, 0, 0, 0.99818426, 0, 0, 0)
+use_collision = true
+size = Vector3(16.941406, 1, 12.887695)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+light_bake_mode = 1
+shadow_enabled = true
