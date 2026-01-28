@@ -18,7 +18,7 @@
 	- [x] move component
 	- [x] jump component
 	- [ ] slow down component
-	- [ ] clone componen
+	- [ ] clone component
 	- [ ] scale compoennt
 	- [ ] mask class
 	- [ ] interactable object
@@ -26,7 +26,7 @@
 	- [ ] platforms
 	- [ ] pressure plates
 	- [ ] NPC
-	- [ ] master level in which scene are loaded
+	- [ ] master level in which scene are loadedl
 
 ## SOUND
 

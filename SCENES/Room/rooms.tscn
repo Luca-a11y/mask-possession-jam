@@ -7,8 +7,8 @@ transform = Transform3D(1, 0, 0, 0, 0.09903467, 0, 0, 0, 1, 0, 0.1, 0)
 size = Vector3(5, 0.2, 5)
 
 [node name="SpawnRoom-wall 1" type="CSGBox3D" parent="SpawnRoom-Floor" unique_id=2090060867]
-transform = Transform3D(6.65373e-07, 0, 0.07774007, 0, 10.097474, 0, -5.073987, 0, 1.01943805e-08, -2.5178642, 13.126716, -0.010033429)
-size = Vector3(1, 2.6, 1)
+transform = Transform3D(6.65373e-07, 0, 0.07774007, 0, 10.097474, 0, -5.073987, 0, 1.01943805e-08, -2.5178642, 13.126716, -0.01374973)
+size = Vector3(0.97314453, 2.6, 1)
 
 [node name="SpawnRoom-wall 2" type="CSGBox3D" parent="SpawnRoom-Floor" unique_id=293321088]
 transform = Transform3D(5.073987, 0, 0, 0, 10.097474, 0, 0, 0, 0.07774007, 0, 13.126716, -2.5)
@@ -43,8 +43,20 @@ transform = Transform3D(-5.073987, 0, 6.7962533e-09, 0, 10.097474, 0, -4.4358202
 size = Vector3(1, 2.6, 1)
 
 [node name="CloneRoom-Floor" type="CSGBox3D" parent="." unique_id=1889633253]
-transform = Transform3D(1, 0, 0, 0, 0.09903467, 0, 0, 0, 1, 20.877197, 0.1, -6)
-size = Vector3(9.745605, 0.2, 5)
+transform = Transform3D(1, 0, 0, 0, 0.09903467, 0, 0, 0, 1, 20.738586, 0.1, -6)
+size = Vector3(9.468384, 0.2, 5)
+
+[node name="CloneRoom-Floor2" type="CSGBox3D" parent="." unique_id=607420057]
+transform = Transform3D(1, 0, 0, 0, 0.09903467, 0, 0, 0, 1, 28.825588, 2.69, -6)
+size = Vector3(6.5795593, 0.2, 5)
+
+[node name="CloneRoom-Floor3" type="CSGBox3D" parent="." unique_id=1990618686]
+transform = Transform3D(1, 0, 0, 0, 0.09903467, 0, 0, 0, 1, 35.402, 7.6167746, -6)
+size = Vector3(6.5795593, 0.2, 5)
+
+[node name="PuzzleCloneElevator" type="CSGBox3D" parent="." unique_id=978157099]
+transform = Transform3D(0.12585004, 0, 0, 0, 0.196, 0, 0, 0, 0.43332416, 23.83949, 0.1, -6)
+size = Vector3(16.64502, 0.2, 5)
 
 [node name="CloneRoom-wall2" type="CSGBox3D" parent="." unique_id=1786474739]
 transform = Transform3D(4.465109, 0, 0, 0, 1, 0, 0, 0, 0.07774007, 20.514261, 1.4, -8.5)
@@ -58,6 +70,30 @@ size = Vector3(1, 2.6, 1)
 transform = Transform3D(-4.465109, 0, 6.7962533e-09, 0, 1, 0, -3.903522e-07, 0, -0.07774007, 20.528706, 1.4, -3.5126753)
 size = Vector3(2.2368164, 2.6, 1)
 
+[node name="CloneRoom-wall5" type="CSGBox3D" parent="." unique_id=452121766]
+transform = Transform3D(-5.3260226, 0, 6.7962533e-09, 0, 1.8867302, 0, -4.6561567e-07, 0, -0.07774007, 28.780037, 5.1214848, -3.5129998)
+size = Vector3(1.8, 2.6, 1)
+
+[node name="CloneRoom-wall6" type="CSGBox3D" parent="." unique_id=1229709798]
+transform = Transform3D(-5.3260226, 0, 6.7962533e-09, 0, 1.8867302, 0, -4.6561567e-07, 0, -0.07774007, 28.141466, 5.1214848, -8.5)
+size = Vector3(1.8, 2.6, 1)
+
+[node name="CloneRoom-wall8" type="CSGBox3D" parent="." unique_id=101366095]
+transform = Transform3D(-4.465109, 0, 6.7962533e-09, 0, 1, 0, -3.903522e-07, 0, -0.07774007, 35.078945, 8.311052, -3.5129993)
+size = Vector3(1.8, 6, 1)
+
+[node name="CloneRoom-wall9" type="CSGBox3D" parent="." unique_id=1072331874]
+transform = Transform3D(-4.465109, 0, 6.7962533e-09, 0, 1, 0, -3.903522e-07, 0, -0.07774007, 34.954365, 8.313423, -8.499999)
+size = Vector3(1.8, 6, 1)
+
+[node name="CloneRoom-wall10" type="CSGBox3D" parent="." unique_id=591183464]
+transform = Transform3D(5.855283e-07, 0, 0.07774007, 0, 1, 0, -4.465109, 0, 1.019438e-08, 38.673107, 9.465454, -6.4587903)
+size = Vector3(1.8, 3.6645875, 1)
+
+[node name="CloneRoom-wall7" type="CSGBox3D" parent="." unique_id=1682718157]
+transform = Transform3D(5.855283e-07, 0, 0.07774007, 0, 1, 0, -4.465109, 0, 1.019438e-08, 32.14468, 5.125465, -6.0132966)
+size = Vector3(1.115, 5, 1)
+
 [node name="Mask Movement" type="CSGBox3D" parent="." unique_id=2131392832]
 transform = Transform3D(-4.43582e-08, 0, -0.07774007, 0, 0.099999964, 0, 1.0147973, 0, -3.3981264e-09, 11.547218, 1.4, 0.03164552)
 size = Vector3(1, 2.6, 9)
@@ -70,16 +106,28 @@ size = Vector3(1, 10, 9)
 transform = Transform3D(-6.65373e-08, 0, -0.10106209, 0, 0.099999964, 0, 1.522196, 0, -4.417564e-09, -21.453, 0.72, -5.5)
 size = Vector3(1, 11, 9)
 
+[node name="FurnitureNotMovable32" type="CSGBox3D" parent="." unique_id=541085501]
+transform = Transform3D(-6.65373e-08, 0, -0.10106209, 0, 0.099999964, 0, 1.522196, 0, -4.417564e-09, 37.78083, 8.146824, -5.930182)
+size = Vector3(1, 11, 9)
+
+[node name="FurnitureNotMovable31" type="CSGBox3D" parent="." unique_id=960628955]
+transform = Transform3D(-6.65373e-08, 0, -0.10106209, 0, 0.099999964, 0, 1.522196, 0, -4.417564e-09, -10, 3.2, -13)
+size = Vector3(1, 11, 9)
+
 [node name="PuzzleCloneBox" type="CSGBox3D" parent="." unique_id=669388707]
-transform = Transform3D(1.522196, 0, 0, 0, 0.09999996, 0, -7.1054274e-15, 0, 0.10106209, 21.547218, 0.76999986, -7.9683547)
+transform = Transform3D(1.4791898, 0, 0.023853093, 0, 0.09999994, 0, -0.35927498, 0, 0.098206796, 19.547218, 0.76999986, -7.8330007)
 size = Vector3(1, 10, 9)
 
-[node name="PuzzleCloneBox2" type="CSGBox3D" parent="." unique_id=1727384351]
-transform = Transform3D(-6.65373e-08, 0, -0.10106209, 0, 0.09999994, 0, 1.5221958, 0, -4.4175636e-09, 24.547, 0.1, -6.968)
+[node name="PuzzleCloneBox2" type="CSGBox3D" parent="." unique_id=1903767734]
+transform = Transform3D(1.4425536, 0, -0.032261435, 0, 0.09999994, 0, 0.4859215, 0, 0.09577445, 29.429972, 3.1935, -7.4707737)
+size = Vector3(1, 10, 9)
+
+[node name="PuzzleCloneBalance2" type="CSGBox3D" parent="." unique_id=1727384351]
+transform = Transform3D(-6.65373e-08, 0, -0.10106209, 0, 0.09999994, 0, 1.5221958, 0, -4.4175636e-09, 21.77373, 0.1, -6.968)
 size = Vector3(1, 1, 9)
 
-[node name="PuzzleCloneBox3" type="CSGBox3D" parent="." unique_id=255062302]
-transform = Transform3D(-6.65373e-08, 0, -0.10106209, 0, 0.09999994, 0, 1.5221958, 0, -4.4175636e-09, 24.547, 0.1, -4.968)
+[node name="PuzzleCloneBalance" type="CSGBox3D" parent="." unique_id=255062302]
+transform = Transform3D(-6.65373e-08, 0, -0.10106209, 0, 0.09999994, 0, 1.5221958, 0, -4.4175636e-09, 21.77373, 0.1, -4.968)
 size = Vector3(1, 1, 9)
 
 [node name="CorridorRoom-Floor" type="CSGBox3D" parent="." unique_id=306472477]
@@ -98,21 +146,29 @@ size = Vector3(1, 2.6, 1)
 transform = Transform3D(1, 0, 0, 0, 0.09903467, 0, 0, 0, 1, 0, 0.1, -5.5)
 size = Vector3(5, 0.2, 6)
 
-[node name="LockRoom-wall 1" type="CSGBox3D" parent="LockRoom-Floor" unique_id=492347426]
-transform = Transform3D(4.9413586, 0, 0, 0, 10.097474, 0, 0, 0, 0.07774007, 0, 13.126716, -3)
+[node name="LockRoom-wall 1" type="CSGBox3D" parent="." unique_id=492347426]
+transform = Transform3D(4.9413586, 0, 0, 0, 1, 0, 0, 0, 0.07774007, -0.01110065, 1.4000281, -8.5)
 size = Vector3(1, 2.6, 1)
 
-[node name="LockRoom-wall 2" type="CSGBox3D" parent="LockRoom-Floor" unique_id=669635107]
-transform = Transform3D(6.65373e-07, 0, 0.07774007, 0, 10.097474, 0, -5.073987, 0, 1.01943805e-08, -2.5178642, 13.126716, 0.0065379143)
-size = Vector3(1.1905518, 2.6, 1)
+[node name="LockRoom-wall 2" type="CSGBox3D" parent="." unique_id=669635107]
+transform = Transform3D(6.65373e-07, 0, 0.07774007, 0, 1, 0, -5.073987, 0, 1.01943805e-08, -2.517864, 1.4, -5.497832)
+size = Vector3(1.1762207, 2.6, 1)
 
-[node name="LockRoom-wall 3" type="CSGBox3D" parent="LockRoom-Floor" unique_id=1156268259]
-transform = Transform3D(6.65373e-07, 0, 0.07774007, 0, 10.097474, 0, -5.073987, 0, 1.01943805e-08, 2.4821358, 13.126716, 0.0065379143)
+[node name="LockRoom-wall 3" type="CSGBox3D" parent="." unique_id=1156268259]
+transform = Transform3D(6.65373e-07, 0, 0.07774007, 0, 1, 0, -5.073987, 0, 1.01943805e-08, 2.4821358, 1.4, -5.493462)
 size = Vector3(1.1905518, 2.6, 1)
 
 [node name="CloneCorridor-Floor" type="CSGBox3D" parent="." unique_id=1868142461]
 transform = Transform3D(-2.4920825e-08, 0, -1, 0, 0.09903467, 0, 0.570122, 0, -4.371139e-08, 9.265, 0.1, -6)
 size = Vector3(7, 0.2, 13.502686)
+
+[node name="CloneCorridor-Floor2" type="CSGBox3D" parent="." unique_id=1555002224]
+transform = Transform3D(-2.4920825e-08, 0, -1, 0, 0.09903467, 0, 0.570122, 0, -4.371139e-08, 6.217698, 0.1, -13.053078)
+size = Vector3(7, 0.2, 7.5)
+
+[node name="CloneCorridor-Floor3" type="CSGBox3D" parent="." unique_id=2076410739]
+transform = Transform3D(-2.4920825e-08, 0, -1, 0, 0.09903467, 0, 0.570122, 0, -4.371139e-08, 11.853754, 0.1, -16.835285)
+size = Vector3(20.268066, 0.2, 3.7759857)
 
 [node name="CloneCorridor-wall" type="CSGBox3D" parent="." unique_id=791336064]
 transform = Transform3D(-1.2314267e-07, 0, -0.07774004, 0, 0.9999996, 0, 2.8171773, 0, -3.398125e-09, 16, 1.4, -6.0062118)
@@ -122,7 +178,27 @@ size = Vector3(1.7734375, 2.6, 1)
 transform = Transform3D(11.507795, 0, -1.2131721e-08, 0, 0.99999934, 0, 1.363373e-06, 0, 0.04432131, 9.260092, 1.3999991, -7.935489)
 size = Vector3(1.1696167, 2.6, 1)
 
+[node name="CloneCorridor-wall6" type="CSGBox3D" parent="." unique_id=612375343]
+transform = Transform3D(11.507795, 0, -1.2131721e-08, 0, 0.99999934, 0, 1.363373e-06, 0, 0.04432131, 6.2520633, 1.3999991, -15.0752945)
+size = Vector3(0.6468353, 2.6, 1)
+
+[node name="CloneCorridor-wall7" type="CSGBox3D" parent="." unique_id=455338078]
+transform = Transform3D(11.507795, 0, -1.2131721e-08, 0, 0.99999934, 0, 1.363373e-06, 0, 0.04432131, 8.135715, 1.3999991, -11.043301)
+size = Vector3(0.974205, 2.6, 1)
+
+[node name="CloneCorridor-wall8" type="CSGBox3D" parent="." unique_id=1308869052]
+transform = Transform3D(-1.8663948e-06, 0, -0.04432131, 0, 0.99999934, 0, 11.507795, 0, -1.4069068e-08, 13.764523, 1.3999991, -16.775373)
+size = Vector3(1.0131836, 2.6, 1)
+
 [node name="CloneCorridor-wall3" type="CSGBox3D" parent="." unique_id=908273736]
+transform = Transform3D(11.507795, 0, -1.2131721e-08, 0, 0.99999934, 0, 1.363373e-06, 0, 0.04432131, 9.24815, 1.3999991, -4.0848794)
+size = Vector3(1.1675415, 2.6, 1)
+
+[node name="CloneCorridor-wall4" type="CSGBox3D" parent="." unique_id=1956976100]
+transform = Transform3D(11.507795, 0, -1.2131721e-08, 0, 0.99999934, 0, 1.363373e-06, 0, 0.04432131, 9.260092, 1.3999991, -7.935489)
+size = Vector3(1.1696167, 2.6, 1)
+
+[node name="CloneCorridor-wall5" type="CSGBox3D" parent="." unique_id=720602309]
 transform = Transform3D(11.507795, 0, -1.2131721e-08, 0, 0.99999934, 0, 1.363373e-06, 0, 0.04432131, 9.24815, 1.3999991, -4.0848794)
 size = Vector3(1.1675415, 2.6, 1)
 
@@ -142,8 +218,12 @@ size = Vector3(3.8302002, 5, 1)
 transform = Transform3D(4.9413586, 0, 0, 0, 10.097474, 0, 0, 0, 0.07774007, -0.018095493, 7.3610106, -18.485735)
 size = Vector3(1.0073242, 6, 1)
 
-[node name="Mask Clone" type="CSGBox3D" parent="SlowRoom-Floor" unique_id=152668702]
+[node name="FurnitureNotMovable" type="CSGBox3D" parent="SlowRoom-Floor" unique_id=152668702]
 transform = Transform3D(-1.0147973, 0, 6.796253e-09, 0, 1.009747, 0, -8.871635e-08, 0, -0.07774007, 0, 24.527, -17.934)
+size = Vector3(1, 2.6, 9)
+
+[node name="Mask GrowAndReduce" type="CSGBox3D" parent="SlowRoom-Floor" unique_id=847695361]
+transform = Transform3D(-1.0147973, 0, 6.796253e-09, 0, 1.009747, 0, -8.871635e-08, 0, -0.07774007, 0.41671154, 99.51916, 41.27547)
 size = Vector3(1, 2.6, 9)
 
 [node name="SlowRoom-Pit" type="CSGBox3D" parent="SlowRoom-Floor" unique_id=1878828608]
@@ -199,7 +279,7 @@ transform = Transform3D(6.65373e-07, 0, 0.07774007, 0, 10.097474, 0, -5.073987, 
 size = Vector3(1.7769165, 2.6, 1)
 
 [node name="Mask Slow" type="CSGBox3D" parent="PuzzleRoom-Floor2" unique_id=1332465897]
-transform = Transform3D(-1.0150653, 0, 6.7980475e-09, 0, 1.0100138, 0, -8.8739824e-08, 0, -0.0777606, -0.024787903, 7.349346, -3.398591)
+transform = Transform3D(-1.0150653, 0, 6.7980475e-09, 0, 1.0100138, 0, -8.873977e-08, 0, -0.0777606, -0.025, 12, -3)
 size = Vector3(1, 2.6, 9)
 
 [node name="PuzzleMovementLibrary" type="CSGBox3D" parent="." unique_id=496819]
@@ -216,10 +296,6 @@ size = Vector3(2.4552002, 26.685059, 1)
 
 [node name="PuzzleMovemenTable" type="CSGCylinder3D" parent="." unique_id=187493901]
 transform = Transform3D(1, 0, 0, 0, 0.09, 0, 0, 0, 1, 0, 1, -11)
-
-[node name="PuzzleSlowClock" type="CSGBox3D" parent="." unique_id=598822491]
-transform = Transform3D(-2.1855694e-08, 0, 0.6003547, 0, 0.090024225, 0, -0.5, 0, -2.6242338e-08, -1.95, 1.295, -5.113)
-size = Vector3(2.4552002, 26.685059, 1)
 
 [node name="FurnitureNotMovable2" type="CSGBox3D" parent="." unique_id=825842402]
 transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, -1.0638001, 1.295, -8.113)
@@ -257,8 +333,76 @@ size = Vector3(2, 26.685059, 1)
 transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 5.9362, 1.295, -0.11299896)
 size = Vector3(2, 26.685059, 1)
 
+[node name="FurnitureNotMovable26" type="CSGBox3D" parent="." unique_id=229907195]
+transform = Transform3D(0.4829629, 0, 0.15538323, 0, 0.090024225, 0, -0.12940952, 0, 0.57989806, 8.5, 1.3, -2)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable14" type="CSGBox3D" parent="." unique_id=1701766105]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 4.9362, 1.295, -7.5)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable15" type="CSGBox3D" parent="." unique_id=434619559]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 3.9362001, 1.295, -7.5)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable16" type="CSGBox3D" parent="." unique_id=771342663]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 5.9362, 1.295, -7.5)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable21" type="CSGBox3D" parent="." unique_id=1060299800]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 7.9362, 1.295, -4.5)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable28" type="CSGBox3D" parent="." unique_id=1313394349]
+transform = Transform3D(0.44395587, 0, -0.27617145, 0, 0.090024225, 0, 0.23000692, 0, 0.533062, 3.1282816, 1.295, -4.6577587)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable22" type="CSGBox3D" parent="." unique_id=660015099]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 8.9362, 1.295, -4.5)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable23" type="CSGBox3D" parent="." unique_id=615624536]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 9.9362, 1.295, -4.5)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable19" type="CSGBox3D" parent="." unique_id=1839525908]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 11.9362, 1.295, -7.5)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable20" type="CSGBox3D" parent="." unique_id=1906127678]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 12.9362, 1.295, -7.5)
+size = Vector3(2, 26.685059, 1)
+
+[node name="FurnitureNotMovable27" type="CSGBox3D" parent="." unique_id=1316987031]
+transform = Transform3D(0.4330127, 0, -0.30017734, 0, 0.090024225, 0, 0.25, 0, 0.5199224, 15.366149, 1.295, -7.2748957)
+size = Vector3(2, 26.685059, 1)
+
 [node name="FurnitureNotMovable11" type="CSGBox3D" parent="." unique_id=396374014]
-transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 5.9362, 0.4989581, 1.887001)
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 5.5, 0.5, 2)
+size = Vector3(2, 9, 1)
+
+[node name="FurnitureNotMovable24" type="CSGBox3D" parent="." unique_id=142347438]
+transform = Transform3D(0.4829629, 0, -0.1553832, 0, 0.090024225, 0, 0.12940952, 0, 0.579898, 8.5, 0.499, 1.887)
+size = Vector3(2, 9, 1)
+
+[node name="FurnitureNotMovable25" type="CSGBox3D" parent="." unique_id=657102630]
+transform = Transform3D(-0.48296285, 0, 0.15538317, 0, 0.090024225, 0, -0.12940949, 0, -0.57989794, 11, 0.5, -2)
+size = Vector3(2, 9, 1)
+
+[node name="FurnitureNotMovable17" type="CSGBox3D" parent="." unique_id=453407435]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 7.936, 0.499, -7.5)
+size = Vector3(2, 9, 1)
+
+[node name="FurnitureNotMovable30" type="CSGBox3D" parent="." unique_id=1472073712]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 4.936, 0.499, -4.5)
+size = Vector3(2, 9, 1)
+
+[node name="FurnitureNotMovable18" type="CSGBox3D" parent="." unique_id=868406738]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 9.936, 0.499, -7.5)
+size = Vector3(2, 9, 1)
+
+[node name="FurnitureNotMovable29" type="CSGBox3D" parent="." unique_id=515886833]
+transform = Transform3D(0.5, 0, 1.7763568e-15, 0, 0.090024225, 0, 0, 0, 0.6003547, 12.936, 0.499, -4.5)
 size = Vector3(2, 9, 1)
 
 [node name="FurnitureNotMovable12" type="CSGBox3D" parent="." unique_id=1917305729]
@@ -273,3 +417,7 @@ height = 1.6
 [node name="resetButtonPuzzle" type="CSGCylinder3D" parent="." unique_id=221645555]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7697918, 0.5, -9.939261)
 radius = 0.23
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=224889775]
+transform = Transform3D(-4.371139e-08, 0.099999964, 0, -1, -4.3711372e-09, 0, 0, 0, 1, -2.5, 1.5, -5.5)
+radius = 1.2
