@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cp32bgttpi1gq"
-path="res://.godot/imported/armchair.blend-e5ea6388c1a61e2ba3c7638cc597ba84.scn"
+uid="uid://cjmenee72dqpx"
+path="res://.godot/imported/library movable.blend-bd73c6d463d82419c2a117149d065838.scn"
 
 [deps]
 
-source_file="res://SCRIPTS/armchair.blend"
-dest_files=["res://.godot/imported/armchair.blend-e5ea6388c1a61e2ba3c7638cc597ba84.scn"]
+source_file="res://SCENES/library movable.blend"
+dest_files=["res://.godot/imported/library movable.blend-bd73c6d463d82419c2a117149d065838.scn"]
 
 [params]
 

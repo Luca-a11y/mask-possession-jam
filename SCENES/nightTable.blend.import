@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bgnu778yn5wol"
-path="res://.godot/imported/library3.blend-30406685258e3115b1cec9ae2fec246e.scn"
+uid="uid://goussh5k6lsl"
+path="res://.godot/imported/nightTable.blend-6108e22889a894ee3a9aac85589a9007.scn"
 
 [deps]
 
-source_file="res://SCRIPTS/library3.blend"
-dest_files=["res://.godot/imported/library3.blend-30406685258e3115b1cec9ae2fec246e.scn"]
+source_file="res://SCENES/nightTable.blend"
+dest_files=["res://.godot/imported/nightTable.blend-6108e22889a894ee3a9aac85589a9007.scn"]
 
 [params]
 

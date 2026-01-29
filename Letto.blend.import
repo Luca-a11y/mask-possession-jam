@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bx62tnjrwpyle"
-path="res://.godot/imported/library2.blend-0291d7ea5c4d521b778b10e8dbb35ffb.scn"
+uid="uid://bly5yghn3fi2u"
+path="res://.godot/imported/Letto.blend-7e810c41c3725f78abc3f245b45b57ea.scn"
 
 [deps]
 
-source_file="res://SCRIPTS/library2.blend"
-dest_files=["res://.godot/imported/library2.blend-0291d7ea5c4d521b778b10e8dbb35ffb.scn"]
+source_file="res://Letto.blend"
+dest_files=["res://.godot/imported/Letto.blend-7e810c41c3725f78abc3f245b45b57ea.scn"]
 
 [params]
 
