@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bx62tnjrwpyle" path="res://SCRIPTS/library2.blend" id="2_o7a15"]
 [ext_resource type="PackedScene" uid="uid://bgnu778yn5wol" path="res://SCRIPTS/library3.blend" id="3_diond"]
 [ext_resource type="PackedScene" uid="uid://cjmenee72dqpx" path="res://SCRIPTS/library movable.blend" id="4_u822t"]
-[ext_resource type="PackedScene" uid="uid://cp32bgttpi1gq" path="res://SCRIPTS/Components/armchair.blend" id="5_o7a15"]
+[ext_resource type="PackedScene" uid="uid://cp32bgttpi1gq" path="res://SCRIPTS/armchair.blend" id="5_o7a15"]
 
 [node name="Node3D" type="Node3D" unique_id=1746160940]
 
@@ -542,32 +542,32 @@ transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -7.4
 [node name="library26" parent="." unique_id=128114907 instance=ExtResource("2_o7a15")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 10.375965, 0.1, -19.457)
 
-[node name="armchair" parent="." unique_id=468832346 instance=ExtResource("5_o7a15")]
+[node name="armchair" parent="." unique_id=1692938434 instance=ExtResource("5_o7a15")]
 transform = Transform3D(0.29317272, 0, -0.95605946, 0, 1, 0, 0.95605946, 0, 0.29317272, 7.881, 0.1, -7.303571)
 
-[node name="armchair2" parent="." unique_id=477213458 instance=ExtResource("5_o7a15")]
+[node name="armchair2" parent="." unique_id=1352790906 instance=ExtResource("5_o7a15")]
 transform = Transform3D(-0.13811879, 0, -0.9904157, 0, 1, 0, 0.9904157, 0, -0.13811879, 9.989986, 0.1, -7.3962564)
 
-[node name="armchair3" parent="." unique_id=1349414198 instance=ExtResource("5_o7a15")]
+[node name="armchair3" parent="." unique_id=709171500 instance=ExtResource("5_o7a15")]
 transform = Transform3D(0.49999997, 0, 0.86602545, 0, 1, 0, -0.86602545, 0, 0.49999997, 8.513, 0.1, 1.789)
 
-[node name="armchair4" parent="." unique_id=116183890 instance=ExtResource("5_o7a15")]
+[node name="armchair4" parent="." unique_id=1482438280 instance=ExtResource("5_o7a15")]
 transform = Transform3D(-0.50000006, 0, -0.8660254, 0, 1, 0, 0.8660254, 0, -0.50000006, 1.456, 0.1, -1.417)
 
-[node name="armchair5" parent="." unique_id=962558905 instance=ExtResource("5_o7a15")]
+[node name="armchair5" parent="." unique_id=251595094 instance=ExtResource("5_o7a15")]
 transform = Transform3D(-0.25881904, 0, 0.9659258, 0, 1, 0, -0.9659258, 0, -0.25881904, 1.432, 0.1, 1.762)
 
-[node name="armchair6" parent="." unique_id=1565006850 instance=ExtResource("5_o7a15")]
+[node name="armchair6" parent="." unique_id=438101857 instance=ExtResource("5_o7a15")]
 transform = Transform3D(-0.49745852, 0, 0.8674877, 0, 1, 0, -0.8674877, 0, -0.49745852, 1.6013912, 0.1, -3.3150227)
 
-[node name="armchair7" parent="." unique_id=1075989473 instance=ExtResource("5_o7a15")]
+[node name="armchair7" parent="." unique_id=893412256 instance=ExtResource("5_o7a15")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.6758885, 0.1, -11.492929)
 
-[node name="armchair8" parent="." unique_id=584370992 instance=ExtResource("5_o7a15")]
+[node name="armchair8" parent="." unique_id=366328462 instance=ExtResource("5_o7a15")]
 transform = Transform3D(-0.9659258, 0, 0.25881913, 0, 1, 0, -0.25881913, 0, -0.9659258, 13.005833, 0, -13.804664)
 
-[node name="armchair9" parent="." unique_id=1605379822 instance=ExtResource("5_o7a15")]
+[node name="armchair9" parent="." unique_id=369593604 instance=ExtResource("5_o7a15")]
 transform = Transform3D(-0.9866831, 0, -0.16265446, 0, 1, 0, 0.16265446, 0, -0.9866831, 13.097368, 0, -16.7541)
 
-[node name="armchair10" parent="." unique_id=699875343 instance=ExtResource("5_o7a15")]
+[node name="armchair10" parent="." unique_id=338293829 instance=ExtResource("5_o7a15")]
 transform = Transform3D(0.81624854, 0, 0.5777009, 0, 1, 0, -0.5777009, 0, 0.81624854, -1.727254, 0, -9.446474)

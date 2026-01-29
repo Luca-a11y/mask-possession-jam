@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cp32bgttpi1gq"
-path="res://.godot/imported/armchair.blend-927c6e65eb85b2298036ddde1bcba8f5.scn"
+path="res://.godot/imported/armchair.blend-e5ea6388c1a61e2ba3c7638cc597ba84.scn"
 
 [deps]
 
-source_file="res://SCRIPTS/Components/armchair.blend"
-dest_files=["res://.godot/imported/armchair.blend-927c6e65eb85b2298036ddde1bcba8f5.scn"]
+source_file="res://SCRIPTS/armchair.blend"
+dest_files=["res://.godot/imported/armchair.blend-e5ea6388c1a61e2ba3c7638cc597ba84.scn"]
 
 [params]
 
