@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cjmenee72dqpx" path="res://SCRIPTS/library movable.blend" id="4_u822t"]
 [ext_resource type="PackedScene" uid="uid://cp32bgttpi1gq" path="res://SCRIPTS/armchair.blend" id="5_o7a15"]
 [ext_resource type="PackedScene" uid="uid://goussh5k6lsl" path="res://SCRIPTS/nightTable.blend" id="6_diond"]
+[ext_resource type="ArrayMesh" uid="uid://cjblhf4r8yxfc" path="res://pillow.obj" id="7_u822t"]
 
 [node name="Node3D" type="Node3D" unique_id=1746160940]
 
@@ -252,14 +253,6 @@ size = Vector3(0.34213257, 0.12766114, 2.3579369)
 transform = Transform3D(0.99999994, 0, 0, -1.6653345e-16, 0.9999998, 6.617445e-24, 0, 0, 1, -24.943905, 0.20428343, 0.28638935)
 size = Vector3(0.34213257, 0.12766114, 2.3579369)
 
-[node name="PuzzleGrowAndReduceTile" type="CSGBox3D" parent="GrowAndReduceRoom-Floor/GrowAndReduceRoom-Floor2" unique_id=1520662016]
-transform = Transform3D(0.53541636, 0, -1.7763568e-15, -1.110223e-16, 0.9999998, -1.6543612e-24, 8.881784e-16, 0, 0.26193923, -4.6523094, 0.1167358, -1.0321064)
-size = Vector3(3.6676636, 0.0012939423, 3.9597702)
-
-[node name="PuzzleGrowAndReduceTile2" type="CSGBox3D" parent="GrowAndReduceRoom-Floor/GrowAndReduceRoom-Floor2" unique_id=682698983]
-transform = Transform3D(0.53541636, 0, -1.7763568e-15, -1.110223e-16, 0.9999998, -1.6543612e-24, 8.881784e-16, 0, 0.26193923, -29.6086, 0.11673583, 0.37627506)
-size = Vector3(3.6676636, 0.0012939423, 3.9597702)
-
 [node name="GrowAndReduce-Pit" type="CSGBox3D" parent="GrowAndReduceRoom-Floor/GrowAndReduceRoom-Floor2" unique_id=394777568]
 transform = Transform3D(0.99999994, 0, 0, -1.6653345e-16, 0.9999998, 6.617445e-24, 0, 0, 1, -17.292347, -0.10092774, -9.536743e-07)
 size = Vector3(30.982346, 0.032910153, 3.7759857)
@@ -324,25 +317,13 @@ size = Vector3(5, 3, 15.568848)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.536743e-07, 0.5, -17.985735)
 size = Vector3(5, 24, 3)
 
-[node name="SlowRoom-Floor3" type="CSGBox3D" parent="SlowRoom-Floor" unique_id=884927957]
-transform = Transform3D(-3.785517e-08, -2.164471e-09, -0.82388395, -5.048737, 0.8660254, 0, 0.8660253, 0.049517326, -3.6013112e-08, -4.7683716e-07, 0.5076208, 2.8870564)
-size = Vector3(4.421631, 0.2, 6)
+[node name="SlowRoom-Floor3" type="CSGBox3D" parent="SlowRoom-Floor" unique_id=224334919]
+transform = Transform3D(1, 0, 0, 0, 0.98546416, 0.16988271, 0, -0.16988271, 0.9854643, -1.0967255e-05, -1.0100012, 3.1851926)
+size = Vector3(5, 25.447237, 0.19342041)
 
 [node name="Mask GrowAndReduce" type="CSGBox3D" parent="." unique_id=847695361]
 transform = Transform3D(-4.435815e-08, 0, -0.07774007, 0, 0.099999964, 0, 1.0147973, 0, -3.3981264e-09, 37.862442, 8.825757, -5.916713)
 size = Vector3(1, 2.6, 9)
-
-[node name="PuzzleSlowTile" type="CSGBox3D" parent="." unique_id=1859520508]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.09903467, 0, -1, 0, -4.371139e-08, -12.666977, 1.8161309, -6.000001)
-
-[node name="PuzzleSlowTile2" type="CSGBox3D" parent="." unique_id=32099716]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.09903467, 0, -1, 0, -4.371139e-08, -17.666977, 1.8161309, -6.000001)
-
-[node name="PuzzleSlowTile3" type="CSGBox3D" parent="." unique_id=461106414]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.09903467, 0, -1, 0, -4.371139e-08, -8.666977, 1.8161309, -4)
-
-[node name="PuzzleSlowTile4" type="CSGBox3D" parent="." unique_id=1841588332]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 0.09903467, 0, -1, 0, -4.371139e-08, -22.666977, 1.8161309, -4)
 
 [node name="MovementRoom-Floor" type="CSGBox3D" parent="." unique_id=1170757291]
 transform = Transform3D(0.9997359, 0, 0, 0, 0.09900851, 0, 0, 0, 0.9997359, -0.0047342777, 0.1, -12.993137)
@@ -570,3 +551,27 @@ transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 10.3
 
 [node name="nightTable10" parent="." unique_id=1919773266 instance=ExtResource("6_diond")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 5.325, 0.1, 2.0112891)
+
+[node name="PuzzlePlatformPillowSlow" type="MeshInstance3D" parent="." unique_id=1291153531]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -8.976714, 1.8855212, -4.1013136)
+mesh = ExtResource("7_u822t")
+
+[node name="PuzzlePlatformPillowSlow2" type="MeshInstance3D" parent="." unique_id=1784822017]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -12.664953, 1.8855212, -6.7942038)
+mesh = ExtResource("7_u822t")
+
+[node name="PuzzlePlatformPillowSlow3" type="MeshInstance3D" parent="." unique_id=954477257]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -17.345474, 1.8855212, -6.0824103)
+mesh = ExtResource("7_u822t")
+
+[node name="PuzzlePlatformPillowSlow4" type="MeshInstance3D" parent="." unique_id=1588464820]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -22.92319, 1.8855212, -3.9833057)
+mesh = ExtResource("7_u822t")
+
+[node name="PuzzlePlatformGrowAndReduce" type="MeshInstance3D" parent="." unique_id=954927287]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 12.817842, 5.8659754, -37.458908)
+mesh = ExtResource("7_u822t")
+
+[node name="PuzzlePlatformGrowAndReduce2" type="MeshInstance3D" parent="." unique_id=1309967487]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 11.52396, 5.96013, -51.784462)
+mesh = ExtResource("7_u822t")
